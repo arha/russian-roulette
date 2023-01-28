@@ -1,3 +1,4 @@
-## Russhian Roulette
+## Russian Roulette
 
-`node main.js` for a 1/6 chance of posting your SSH private key on pastebin :)
+This script has been improved to use the current weapon of choice for playing russian roulette - fully automatics. [bash.org](bash.org) and [darwin awards](https://darwinawards.com/darwin/darwin2000-04.html) have many documented instances of such cases.
+
